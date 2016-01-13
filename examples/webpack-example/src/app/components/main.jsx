@@ -8,6 +8,8 @@ import LightRawTheme from 'material-ui/lib/styles/raw-themes/light-raw-theme';
 import Colors from 'material-ui/lib/styles/colors';
 import FlatButton from 'material-ui/lib/flat-button';
 
+import CheckboxExample from './CheckboxExample';
+
 const containerStyle = {
   textAlign: 'center',
   paddingTop: 200,
@@ -74,6 +76,7 @@ const Main = React.createClass({
         <h1>material-ui</h1>
         <h2>example project</h2>
         <RaisedButton label="Super Secret Password" primary={true} onTouchTap={this._handleTouchTap} />
+        <CheckboxExample />
       </div>
     );
   },
